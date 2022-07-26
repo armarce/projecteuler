@@ -13,10 +13,10 @@ function primeNumbersGenerator($limit){
     $primeNumbers = array();
 
     while($number < $limit){
-
+        
         $divCount = 0;
 
-        for($i = 1; $i <= $limit; $i++){
+        for($i = 1; $i <= $number; $i++){
 
             if($number % $i == 0){
 
