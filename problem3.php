@@ -34,6 +34,7 @@ function primeNumbersGenerator($limit){
 
     return $primeNumbers;
 
+    
 }
 
 function largestPrimeFactor($number, $limitPrimeNumbers){
