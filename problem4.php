@@ -62,7 +62,7 @@ function products($digits){
         while($k <= $total){
 
             $k++;
-            $numberMaxDec." - ".$numberMinInc;
+            
             $product = $numberMaxDec * $numberMinInc;
 
             $numberMaxDec--;
